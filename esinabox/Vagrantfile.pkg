@@ -1,0 +1,4 @@
+Vagrant::Config.run do |config|
+  config.vm.forward_port 9200, 9200
+  config.vm.forward_port 9300, 9300
+end
