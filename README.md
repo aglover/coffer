@@ -13,28 +13,28 @@ Ubuntu 12.04 64-bit. Oracle Java 7 and Elasticsearch 0.90.7.
 
 #### How to
 
-``` bash This command will create a Vagrant definition named esinabox from the downloaded template
+```
 vagrant box add esinabox https://s3.amazonaws.com/coffers/esinabox.box
 ```
 
 This command will download the Elasticsearch-in-a-box template. Once that completes (it'll take a few moments depending on your connection), execute this command:
 
-``` bash Vagrant init will create a VagrantFile
+``` 
 vagrant init 'esinabox'
 ```
 
-``` bash Starting up Elasticsearch-in-a-box
+``` 
 vagrant up
 ```
 
 Now that Elasticsearch-in-a-box is running locally on your machine, you can open up a new terminal and execute RESTful commands like normal because Elasticsearch is running on same ports: 9200 & 9300. So go ahead and execute some queries, like so:
 
-``` bash Elasticsearch is up an running!
+``` 
 curl -XGET 'http://localhost:9200/_status?pretty=true'
 ```
 
 And when you are done, go ahead and tear down the instance like so:
 
-``` bash Destroying a VM instance
+``` 
 vagrant destroy -f 
 ```
