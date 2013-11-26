@@ -7,6 +7,10 @@ Vagrant templates for your environmental pleasures.
 
 In order to use Coffer's various in-a-boxes, you first need to have [Vagrant](http://docs.vagrantup.com/v2/installation/) and [VirtualBox](https://www.virtualbox.org/) installed. These two installations couldn't be any easier. To install [Vagrant](http://thediscoblog.com/blog/2013/10/16/ssh-and-vagrant/), simply go to the downloads page and pick your target distribution. Vagrant provisions machines on top of virtual machine providers like VMWare, [AWS](http://thediscoblog.com/blog/categories/aws/), and VirtualBox. VirtualBox is free and easy to install -- like Vagrant, simply [go to the downloads section](https://www.virtualbox.org/wiki/Downloads) and pick your target platform. 
 
+## Details
+
+Coffer templates are built using [Veewee](https://github.com/jedi4ever/veewee).
+
 ### Elasticsearch-in-a-box
 
 Ubuntu 12.04 64-bit. Oracle Java 7 and Elasticsearch 0.90.7.
