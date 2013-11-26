@@ -2,3 +2,5 @@ iso
 Gemfile.lock
 vendor
 .bundle
+esinabox/esinabox.box
+.DS_Store
