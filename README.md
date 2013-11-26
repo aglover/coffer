@@ -23,6 +23,8 @@ This command will download the Elasticsearch-in-a-box template. Once that comple
 vagrant init 'esinabox'
 ```
 
+Next, fire up Elasticsearch-in-a-box like so:
+
 ``` 
 vagrant up
 ```
