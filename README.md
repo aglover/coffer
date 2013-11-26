@@ -11,6 +11,8 @@ In order to use Coffer's various in-a-boxes, you first need to have [Vagrant](ht
 
 Coffer templates are built using [Veewee](https://github.com/jedi4ever/veewee).
 
+## Templates
+
 ### Elasticsearch-in-a-box
 
 Ubuntu 12.04 64-bit. Oracle Java 7 and Elasticsearch 0.90.7.
